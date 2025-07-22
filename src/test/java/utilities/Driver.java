@@ -29,9 +29,15 @@ public class Driver {
                     .setPlatformName("Android")
                     .setPlatformVersion("10.0")
                     .setAutomationName("UiAutomator2")
-                    .setApp("C:\\Users\\Asus\\Desktop\\MobileTestAutomationWithNewVersionAppiumAndCucumber\\Apps\\PttAVM - Güvenli Alisveris_2.4.1GMS_APKPure.apk")
-                    .setAppPackage("com.pttem.epttavm")
-                    .setAppActivity("com.pttem.epttavm.ui.activities.splash.SplashActivity")
+                   // .setApp("C:\\Users\\Asus\\Desktop\\MobileTestAutomationWithNewVersionAppiumAndCucumber\\Apps\\PttAVM - Güvenli Alisveris_2.4.1GMS_APKPure.apk")
+                   // .setAppPackage("com.pttem.epttavm")
+                   // .setAppActivity("com.pttem.epttavm.ui.activities.splash.SplashActivity")
+                   // .setNoReset(false);
+
+              .setApp("C:\\Users\\Asus\\Desktop\\MobileTestAutomationWithNewVersionAppiumAndCucumber\\Apps\\Teknosa–Alisveris,Teknoloji_7.3.6_APKPure.apk")
+
+                    .setAppPackage("com.tmob.teknosa")
+                    .setAppActivity("com.tmob.teknosa.MainActivity")
                     .setNoReset(false);
 
 
